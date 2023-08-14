@@ -212,6 +212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  puzzlePanels: []
 --- !u!1 &32165147
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +323,7 @@ GameObject:
   - component: {fileID: 166665711}
   m_Layer: 0
   m_Name: Puzzle (4)
-  m_TagString: Untagged
+  m_TagString: Puzzles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -712,6 +714,82 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &343220427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 343220428}
+  - component: {fileID: 343220430}
+  - component: {fileID: 343220429}
+  m_Layer: 5
+  m_Name: Test panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &343220428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343220427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1116579055}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 355, y: -205.77}
+  m_SizeDelta: {x: 241, y: -13.54}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &343220429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343220427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &343220430
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343220427}
+  m_CullTransparentMesh: 1
 --- !u!1 &381677147
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,7 +1358,7 @@ GameObject:
   - component: {fileID: 654631658}
   m_Layer: 0
   m_Name: Puzzle (3)
-  m_TagString: Untagged
+  m_TagString: Puzzles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1957,7 +2035,7 @@ GameObject:
   - component: {fileID: 947244841}
   m_Layer: 0
   m_Name: Puzzle (5)
-  m_TagString: Untagged
+  m_TagString: Puzzles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2152,7 +2230,7 @@ GameObject:
   - component: {fileID: 951407808}
   m_Layer: 0
   m_Name: Puzzle
-  m_TagString: Untagged
+  m_TagString: Puzzles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2516,7 +2594,7 @@ GameObject:
   - component: {fileID: 1080205331}
   m_Layer: 0
   m_Name: Puzzle (1)
-  m_TagString: Untagged
+  m_TagString: Puzzles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2623,6 +2701,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1116579055}
+  - component: {fileID: 1116579056}
   m_Layer: 5
   m_Name: MiniPuzzles
   m_TagString: Untagged
@@ -2648,6 +2727,7 @@ RectTransform:
   - {fileID: 654631657}
   - {fileID: 166665710}
   - {fileID: 947244840}
+  - {fileID: 343220428}
   m_Father: {fileID: 32165148}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2656,6 +2736,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1116579056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1116579054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1579456976}
+  puzzlePanels:
+  - {fileID: 951407805}
+  - {fileID: 1080205329}
+  - {fileID: 1450725646}
+  - {fileID: 654631656}
+  - {fileID: 166665709}
+  - {fileID: 947244839}
 --- !u!1 &1223302694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2921,7 +3021,7 @@ GameObject:
   - component: {fileID: 1450725648}
   m_Layer: 0
   m_Name: Puzzle (2)
-  m_TagString: Untagged
+  m_TagString: Puzzles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3272,6 +3372,7 @@ GameObject:
   - component: {fileID: 1579456977}
   - component: {fileID: 1579456979}
   - component: {fileID: 1579456978}
+  - component: {fileID: 1579456980}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -3349,7 +3450,26 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &1579456980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579456976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31ed28c0b606d88439b1c38afabc5e4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 4
+  leftSprite: {fileID: 1071110634}
+  rightSprite: {fileID: 292198569}
+  backSprite: {fileID: 948433757}
+  frontSprite: {fileID: 225398886}
+  puzzlesScript: {fileID: 0}
+  puzzle_script: {fileID: 1116579054}
 --- !u!1 &1585856627
 GameObject:
   m_ObjectHideFlags: 0

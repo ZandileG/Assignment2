@@ -342,6 +342,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  puzzlePanels: []
 --- !u!114 &220400812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3440,6 +3442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1626625852}
+  - component: {fileID: 1626625853}
   m_Layer: 5
   m_Name: MiniPuzzles
   m_TagString: Untagged
@@ -3473,6 +3476,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1626625853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626625851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2048850810}
+  puzzlePanels:
+  - {fileID: 274248055}
+  - {fileID: 1502913424}
+  - {fileID: 1246819589}
+  - {fileID: 249544831}
+  - {fileID: 1999098953}
+  - {fileID: 441524423}
 --- !u!1 &1655354975
 GameObject:
   m_ObjectHideFlags: 0
@@ -6977,7 +7000,7 @@ GameObject:
   - component: {fileID: 2048850811}
   - component: {fileID: 2048850813}
   - component: {fileID: 2048850812}
-  - component: {fileID: 2048850814}
+  - component: {fileID: 2048850815}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -7055,8 +7078,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &2048850814
+  m_Constraints: 4
+--- !u!114 &2048850815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7068,6 +7091,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31ed28c0b606d88439b1c38afabc5e4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerSpeed: 5
+  leftSprite: {fileID: 1057626698}
+  rightSprite: {fileID: 1259011275}
+  backSprite: {fileID: 2123586317}
+  frontSprite: {fileID: 1718534104}
+  puzzlesScript: {fileID: 0}
+  puzzle_script: {fileID: 1626625851}
 --- !u!1 &2098250847
 GameObject:
   m_ObjectHideFlags: 0

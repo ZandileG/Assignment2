@@ -18,7 +18,8 @@ public class MainMenu : MonoBehaviour
     
   //The game will end when the "Quit" button is pressed
     public void Quit()
-    { 
+    {
         Application.Quit();
+
     } 
 }

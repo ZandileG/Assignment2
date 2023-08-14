@@ -29,7 +29,7 @@ public class Puzzles : MonoBehaviour
     }
     public void ActivatePuzzles(int panelNumber)
     {
-        //puzzlePanels[panelNumber].SetActive(true);
+        puzzlePanels[panelNumber].SetActive(false);
     }
 
     public void DeactivatePuzzles(int panelNumber)

@@ -8378,6 +8378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 612031563}
+  - component: {fileID: 612031564}
   m_Layer: 5
   m_Name: MiniPuzzles
   m_TagString: Untagged
@@ -8411,6 +8412,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &612031564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612031562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 602495560}
+  puzzlePanels: []
 --- !u!1 &621501800
 GameObject:
   m_ObjectHideFlags: 0

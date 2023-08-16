@@ -4121,7 +4121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1733834251}
   puzzlePanels:
-  - {fileID: 0}
+  - {fileID: 721527533}
 --- !u!1 &255649675
 GameObject:
   m_ObjectHideFlags: 0
@@ -4500,7 +4500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1733834251}
   puzzlePanels:
-  - {fileID: 0}
+  - {fileID: 1976696404}
 --- !u!1 &279889381
 GameObject:
   m_ObjectHideFlags: 0
@@ -7437,7 +7437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1733834251}
   puzzlePanels:
-  - {fileID: 441524423}
+  - {fileID: 850448308}
 --- !u!1 &445691097
 GameObject:
   m_ObjectHideFlags: 0
@@ -20433,7 +20433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1733834251}
   puzzlePanels:
-  - {fileID: 0}
+  - {fileID: 259422290}
 --- !u!1 &1251925695
 GameObject:
   m_ObjectHideFlags: 0
@@ -25526,7 +25526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1733834251}
   puzzlePanels:
-  - {fileID: 0}
+  - {fileID: 1370476853}
 --- !u!1 &1507805549
 GameObject:
   m_ObjectHideFlags: 0
@@ -46940,7 +46940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1733834251}
   puzzlePanels:
-  - {fileID: 0}
+  - {fileID: 1178442667}
 --- !u!1 &1999919631
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
@@ -83,6 +84,27 @@ public class Movement : MonoBehaviour
     private void OnCollisionStay2D(Collision2D collision)
     {
         puzzlesScript.CollisionCheck(collision);
+
+        if (collision.gameObject.tag == "Chest1")
+        {
+            SceneManager.LoadScene("Level2");
+        }
+
+        if (collision.gameObject.tag == "Chest2")
+        {
+            SceneManager.LoadScene("Level3");
+        }
+
+        if (collision.gameObject.tag == "Chest3")
+        {
+            SceneManager.LoadScene("Level4");
+        }
+
+        if (collision.gameObject.tag == "Chest4")
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+
     }
 
 }

@@ -1,16 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Puzzles : MonoBehaviour
 {
     public GameObject player;
     public List<GameObject> puzzlePanels = new List<GameObject>();
+    public List<GameObject> ActualPuzzels = new List<GameObject>();
     int puzzlePanelX;
     int puzzlePanelY;
     int playerX;
     int playerY;
     Vector2 playerPos;
+    public GameObject TheMaze;
+    public GameObject MiniPuzzles;
+    public GameObject LevelScreen;
     
     void Start()
     {
@@ -30,13 +35,22 @@ public class Puzzles : MonoBehaviour
     public void ActivatePuzzles(int panelNumber)
     {
         puzzlePanels[panelNumber].SetActive(false);
+        TheMaze.SetActive(false);
+        ActualPuzzels[panelNumber].SetActive(true);
+        MiniPuzzles.SetActive(false);
+        LevelScreen.SetActive(false);
+
     }
 
     public void DeactivatePuzzles(int panelNumber)
     {
-        puzzlePanels[panelNumber].SetActive(false);
+        //puzzlePanels[panelNumber].SetActive(false);
+        TheMaze.SetActive(true);
+        ActualPuzzels[panelNumber].SetActive(false);
+        MiniPuzzles.SetActive(true);
+        LevelScreen.SetActive(true);
     }
-    
+
 
     public void CollisionCheck(Collision2D Object)
     {
@@ -56,7 +70,7 @@ public class Puzzles : MonoBehaviour
 
             }
         }
-        Debug.Log("Collision Works");
+        
     }
     
 

@@ -4204,7 +4204,6 @@ GameObject:
   - component: {fileID: 253711508}
   - component: {fileID: 253711510}
   - component: {fileID: 253711509}
-  - component: {fileID: 253711511}
   m_Layer: 0
   m_Name: Puzzle4
   m_TagString: Puzzles
@@ -4305,25 +4304,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &253711511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 253711507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 602495560}
-  puzzlePanels:
-  - {fileID: 1349502728}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!1 &269405710
 GameObject:
   m_ObjectHideFlags: 0
@@ -5897,7 +5877,6 @@ GameObject:
   - component: {fileID: 388440970}
   - component: {fileID: 388440972}
   - component: {fileID: 388440971}
-  - component: {fileID: 388440973}
   m_Layer: 0
   m_Name: Puzzle6
   m_TagString: Puzzles
@@ -5998,25 +5977,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &388440973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 388440969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 602495560}
-  puzzlePanels:
-  - {fileID: 1814243626}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!1 &389617338
 GameObject:
   m_ObjectHideFlags: 0
@@ -9002,7 +8962,6 @@ GameObject:
   - component: {fileID: 569590955}
   - component: {fileID: 569590957}
   - component: {fileID: 569590956}
-  - component: {fileID: 569590958}
   m_Layer: 0
   m_Name: Puzzle5
   m_TagString: Puzzles
@@ -9103,25 +9062,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &569590958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 569590954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 602495560}
-  puzzlePanels:
-  - {fileID: 1849421170}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!1 &573382233
 GameObject:
   m_ObjectHideFlags: 0
@@ -25590,7 +25530,6 @@ GameObject:
   - component: {fileID: 1145845438}
   - component: {fileID: 1145845440}
   - component: {fileID: 1145845439}
-  - component: {fileID: 1145845441}
   m_Layer: 0
   m_Name: Puzzle3
   m_TagString: Puzzles
@@ -25691,25 +25630,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1145845441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1145845437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 602495560}
-  puzzlePanels:
-  - {fileID: 1434364563}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!1 &1147176905
 GameObject:
   m_ObjectHideFlags: 0
@@ -28461,7 +28381,6 @@ GameObject:
   - component: {fileID: 1370792228}
   - component: {fileID: 1370792230}
   - component: {fileID: 1370792229}
-  - component: {fileID: 1370792231}
   m_Layer: 0
   m_Name: Puzzle1
   m_TagString: Puzzles
@@ -28562,25 +28481,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1370792231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370792227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 602495560}
-  puzzlePanels:
-  - {fileID: 1854695536}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!1 &1376536325
 GameObject:
   m_ObjectHideFlags: 0
@@ -35584,7 +35484,6 @@ GameObject:
   - component: {fileID: 1784245975}
   - component: {fileID: 1784245977}
   - component: {fileID: 1784245976}
-  - component: {fileID: 1784245978}
   m_Layer: 0
   m_Name: Puzzle2
   m_TagString: Puzzles
@@ -35685,25 +35584,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1784245978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784245974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 602495560}
-  puzzlePanels:
-  - {fileID: 1759808926}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!1 &1802660951
 GameObject:
   m_ObjectHideFlags: 0
@@ -38028,7 +37908,7 @@ GameObject:
   - component: {fileID: 1933719113}
   - component: {fileID: 1933719114}
   m_Layer: 5
-  m_Name: Actual puzzles
+  m_Name: ActualPuzzles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

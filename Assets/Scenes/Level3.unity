@@ -4227,7 +4227,6 @@ GameObject:
   - component: {fileID: 218470485}
   - component: {fileID: 218470488}
   - component: {fileID: 218470487}
-  - component: {fileID: 218470486}
   m_Layer: 0
   m_Name: Puzzle6
   m_TagString: Puzzles
@@ -4243,32 +4242,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218470484}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 358, y: -44, z: -4342.5}
+  m_LocalPosition: {x: 360, y: -115, z: -4342.5}
   m_LocalScale: {x: 300, y: 300, z: 48.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451639297}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &218470486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218470484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  puzzlePanels:
-  - {fileID: 681434731}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!61 &218470487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8127,7 +8107,6 @@ GameObject:
   - component: {fileID: 513529219}
   - component: {fileID: 513529222}
   - component: {fileID: 513529221}
-  - component: {fileID: 513529220}
   m_Layer: 0
   m_Name: Puzzle1
   m_TagString: Puzzles
@@ -8143,32 +8122,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513529218}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 707, y: 1, z: -4342.5}
+  m_LocalPosition: {x: -154, y: -54, z: -4342.5}
   m_LocalScale: {x: 300, y: 300, z: 48.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451639297}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &513529220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513529218}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  puzzlePanels:
-  - {fileID: 2028234275}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!61 &513529221
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11392,7 +11352,6 @@ GameObject:
   - component: {fileID: 683810910}
   - component: {fileID: 683810913}
   - component: {fileID: 683810912}
-  - component: {fileID: 683810911}
   m_Layer: 0
   m_Name: Puzzle3
   m_TagString: Puzzles
@@ -11408,32 +11367,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 683810909}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 312, y: -436, z: -4342.5}
+  m_LocalPosition: {x: 422, y: -305, z: -4342.5}
   m_LocalScale: {x: 300, y: 300, z: 48.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451639297}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &683810911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 683810909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  puzzlePanels:
-  - {fileID: 748861391}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!61 &683810912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18602,7 +18542,7 @@ GameObject:
   - component: {fileID: 1110982281}
   - component: {fileID: 1110982282}
   m_Layer: 5
-  m_Name: Actual puzzles
+  m_Name: ActualPuzzles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81958,7 +81898,6 @@ GameObject:
   - component: {fileID: 1862906853}
   - component: {fileID: 1862906856}
   - component: {fileID: 1862906855}
-  - component: {fileID: 1862906854}
   m_Layer: 0
   m_Name: Puzzle2
   m_TagString: Puzzles
@@ -81981,25 +81920,6 @@ Transform:
   m_Father: {fileID: 451639297}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1862906854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1862906852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  puzzlePanels:
-  - {fileID: 1401915589}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!61 &1862906855
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -82861,7 +82781,6 @@ GameObject:
   - component: {fileID: 1901346493}
   - component: {fileID: 1901346496}
   - component: {fileID: 1901346495}
-  - component: {fileID: 1901346494}
   m_Layer: 0
   m_Name: Puzzle4
   m_TagString: Puzzles
@@ -82877,32 +82796,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901346492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -53, y: -21, z: -4342.5}
+  m_LocalPosition: {x: 80, y: 288, z: -4342.5}
   m_LocalScale: {x: 300, y: 300, z: 48.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451639297}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1901346494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901346492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  puzzlePanels:
-  - {fileID: 1060786692}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!61 &1901346495
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -86622,7 +86522,6 @@ GameObject:
   - component: {fileID: 2097402917}
   - component: {fileID: 2097402920}
   - component: {fileID: 2097402919}
-  - component: {fileID: 2097402918}
   m_Layer: 0
   m_Name: Puzzle5
   m_TagString: Puzzles
@@ -86638,32 +86537,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097402916}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 121, y: 133, z: -4342.5}
+  m_LocalPosition: {x: 24, y: 398, z: -4342.5}
   m_LocalScale: {x: 300, y: 300, z: 48.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 451639297}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2097402918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097402916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 784adef7a27a92d49a25f91fd9fa34ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  puzzlePanels:
-  - {fileID: 136901936}
-  ActualPuzzels: []
-  TheMaze: {fileID: 0}
-  MiniPuzzles: {fileID: 0}
-  LevelScreen: {fileID: 0}
 --- !u!61 &2097402919
 BoxCollider2D:
   m_ObjectHideFlags: 0

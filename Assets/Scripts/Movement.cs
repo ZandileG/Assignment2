@@ -14,6 +14,10 @@ public class Movement : MonoBehaviour
     public GameObject frontSprite;
     public Puzzles puzzlesScript;
     public GameObject puzzle_script;
+
+    public GameObject Level4Screen;
+    public GameObject WinScreen;
+    public GameObject MazeGrid;
     
 
 
@@ -102,7 +106,10 @@ public class Movement : MonoBehaviour
 
         if (collision.gameObject.tag == "Chest4")
         {
-            SceneManager.LoadScene("MainMenu");
+            //SceneManager.LoadScene("MainMenu");
+            WinScreen.SetActive(true);
+            Level4Screen.SetActive(false);
+            MazeGrid.SetActive(false);
         }
 
     }

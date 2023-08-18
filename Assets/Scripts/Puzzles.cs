@@ -7,7 +7,7 @@ public class Puzzles : MonoBehaviour
 {
     public GameObject player;
     public List<GameObject> puzzlePanels = new List<GameObject>();
-    public List<GameObject> ActualPuzzels = new List<GameObject>();
+    public List<GameObject> ActualPuzzles = new List<GameObject>();
     int puzzlePanelX;
     int puzzlePanelY;
     int playerX;
@@ -36,7 +36,7 @@ public class Puzzles : MonoBehaviour
     {
         puzzlePanels[panelNumber].SetActive(false);
         TheMaze.SetActive(false);
-        ActualPuzzels[panelNumber].SetActive(true);
+        ActualPuzzles[panelNumber].SetActive(true);
         MiniPuzzles.SetActive(false);
         LevelScreen.SetActive(false);
 
@@ -46,7 +46,7 @@ public class Puzzles : MonoBehaviour
     {
         //puzzlePanels[panelNumber].SetActive(false);
         TheMaze.SetActive(true);
-        ActualPuzzels[panelNumber].SetActive(false);
+        ActualPuzzles[panelNumber].SetActive(false);
         MiniPuzzles.SetActive(true);
         LevelScreen.SetActive(true);
     }

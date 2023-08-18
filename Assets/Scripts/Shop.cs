@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public List<GameObject> ActualPuzzles = new List<GameObject>();
+
+    public void DeactivatePuzzles(int panelNumber)
     {
-        
+        ActualPuzzles[panelNumber].SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //When the player wins a puzzle, they must gain gems maybe 1-5 depending on the level of difficulty
+    //The player can use those gems to buy hints
+    //The number of gems earned must decrease when the play presses the buy button
 }

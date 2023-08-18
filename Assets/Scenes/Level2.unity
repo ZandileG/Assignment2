@@ -2401,7 +2401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &177874745
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10206,7 +10206,13 @@ MonoBehaviour:
   - {fileID: 253711507}
   - {fileID: 569590954}
   - {fileID: 388440969}
-  ActualPuzzles: []
+  ActualPuzzles:
+  - {fileID: 1854695536}
+  - {fileID: 1759808926}
+  - {fileID: 1434364563}
+  - {fileID: 1349502728}
+  - {fileID: 1849421170}
+  - {fileID: 1814243626}
   TheMaze: {fileID: 1125183311}
   MiniPuzzles: {fileID: 612031562}
   LevelScreen: {fileID: 1958669667}
@@ -26033,7 +26039,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1087223375
 RectTransform:
   m_ObjectHideFlags: 0
@@ -32047,7 +32053,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1495070959
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36160,7 +36166,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1739315838
 RectTransform:
   m_ObjectHideFlags: 0

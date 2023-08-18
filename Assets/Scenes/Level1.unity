@@ -4359,7 +4359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &334660444
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19564,7 +19564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1436572392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22407,7 +22407,13 @@ MonoBehaviour:
   - {fileID: 249544831}
   - {fileID: 1999098953}
   - {fileID: 441524423}
-  ActualPuzzles: []
+  ActualPuzzles:
+  - {fileID: 1976696404}
+  - {fileID: 1370476853}
+  - {fileID: 259422290}
+  - {fileID: 721527533}
+  - {fileID: 1178442667}
+  - {fileID: 850448308}
   TheMaze: {fileID: 1871450984}
   MiniPuzzles: {fileID: 1626625851}
   LevelScreen: {fileID: 890779005}

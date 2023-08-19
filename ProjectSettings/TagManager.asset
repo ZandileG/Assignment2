@@ -9,6 +9,7 @@ TagManager:
   - Chest2
   - Chest3
   - Chest4
+  - Event
   layers:
   - Default
   - TransparentFX

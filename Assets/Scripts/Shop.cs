@@ -13,14 +13,14 @@ public class Shop : MonoBehaviour
 
     private void Start()
     {
-        gemTxt.text = "Gems" + gems.ToString();
+        gemTxt.text = "0" + gems.ToString();
         
-        //ID
-        shopItems[1, 1] = 1;
-        shopItems[1, 2] = 2;
-        shopItems[1, 3] = 3;
-        shopItems[1, 4] = 4;
-        shopItems[1, 5] = 5;
+        //Image
+       // shopItems[1, 1] = 1;
+       // shopItems[1, 2] = 2;
+       // shopItems[1, 3] = 3;
+       // shopItems[1, 4] = 4;
+        //shopItems[1, 5] = 5;
 
         //Price
         shopItems[2, 1] = 1;
@@ -35,9 +35,9 @@ public class Shop : MonoBehaviour
     {
         GameObject BuyButton = GameObject.FindGameObjectWithTag("Event").GetComponent<EventSystem>().currentSelectedGameObject;
 
-        if (gems >= shopItems[2, BuyButton.GetComponent<ShopInfo>().ItemID])
+        if (gems >= shopItems[2, BuyButton.GetComponent<ShopInfo>().Image])
         {
-            gems -= shopItems[2, BuyButton.GetComponent<ShopInfo>().ItemID];
+            gems -= shopItems[2, BuyButton.GetComponent<ShopInfo>().Image];
 
             gemTxt.text = "Gems:" + gems.ToString();
 

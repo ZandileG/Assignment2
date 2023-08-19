@@ -6,13 +6,13 @@ using TMPro;
 
 public class ShopInfo : MonoBehaviour
 {
-    public int ItemID;
+    public Sprite Image;
     public TMP_Text GemTxt;
     public GameObject Shop;
 
     void Update ()
     {
-        GemTxt.text = "Gems" + Shop.GetComponent<Shop>().shopItems[2,ItemID].ToString();
+        GemTxt.text = "0" + Shop.GetComponent<Shop>().shopItems[2,Image].ToString();
     }
 }
 

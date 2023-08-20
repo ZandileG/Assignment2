@@ -7,10 +7,7 @@ using UnityEngine.EventSystems;
 
 public class Shop : MonoBehaviour
 {
-    public int[,] shopItems = new int[6, 6];
-    public float gems;
-    public TMP_Text gemTxt;
-
+    public int Hints;
 
     public void Start()
     {

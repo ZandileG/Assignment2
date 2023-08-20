@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PuzzleAnswers : MonoBehaviour
 {
@@ -27,6 +28,11 @@ public class PuzzleAnswers : MonoBehaviour
     public float DelaySecond;
 
     public int Attempts = 3;
+    public GameObject incorrectText;
+
+    public TextMeshProUGUI currencyText; // Reference to the currency text object
+    public GameObject currency;
+
     void Start()
     {
         puzzlesScript = puzzle_script.GetComponent<Puzzles>();
@@ -34,10 +40,6 @@ public class PuzzleAnswers : MonoBehaviour
         SecondLevel();
         ThirdLevel();
         FourthLevel();
-
-
-
-
     }
 
     
@@ -131,14 +133,23 @@ public class PuzzleAnswers : MonoBehaviour
         Debug.Log(AnswerLevel1[X, Y]);
         if (AnswerLevel1[X, Y] == true)
         {
+            currency.SetActive(true);
+
             puzzlesScript.DeactivatePuzzles(X);
             Attempts = 3;
             Debug.Log(" If Statement works");
+
+            // Add 1 to the currency text value
+            int currentCurrency = int.Parse(currencyText.text);
+            currentCurrency++;
+            currencyText.text = currentCurrency.ToString();
+
+            Debug.Log("Currency increased by 1");
         }
         else
         {
-            //Remember to add text field for player comunication.
-            //Must display incorrect answer in text field.
+            incorrectText.SetActive(true);
+            StartCoroutine(DeactivateIncorrectText()); // Start the coroutine
 
             Attempts--;
             if (Attempts == 0)
@@ -187,14 +198,23 @@ public class PuzzleAnswers : MonoBehaviour
         Debug.Log(AnswerLevel2[X, Y]);
         if (AnswerLevel2[X, Y] == true)
         {
+            currency.SetActive(true);
+
             puzzlesScript.DeactivatePuzzles(X);
             Attempts = 3;
             Debug.Log(" If Statement works");
+
+            // Add 2 to the currency text value
+            int currentCurrency = int.Parse(currencyText.text);
+            currentCurrency += 2;
+            currencyText.text = currentCurrency.ToString();
+
+            Debug.Log("Currency increased by 2");
         }
         else
         {
-            //Remember to add text field for player comunication.
-            //Must display incorrect answer in text field.
+            incorrectText.SetActive(true);
+            StartCoroutine(DeactivateIncorrectText()); // Start the coroutine
 
             Attempts--;
             if (Attempts == 0)
@@ -243,14 +263,23 @@ public class PuzzleAnswers : MonoBehaviour
         Debug.Log(AnswerLevel3[X, Y]);
         if (AnswerLevel3[X, Y] == true)
         {
+            currency.SetActive(true);
+
             puzzlesScript.DeactivatePuzzles(X);
             Attempts = 3;
             Debug.Log(" If Statement works");
+
+            // Add 3 to the currency text value
+            int currentCurrency = int.Parse(currencyText.text);
+            currentCurrency += 3;
+            currencyText.text = currentCurrency.ToString();
+
+            Debug.Log("Currency increased by 3");
         }
         else
         {
-            //Remember to add text field for player comunication.
-            //Must display incorrect answer in text field.
+            incorrectText.SetActive(true);
+            StartCoroutine(DeactivateIncorrectText()); // Start the coroutine
 
             Attempts--;
             if (Attempts == 0)
@@ -298,14 +327,23 @@ public class PuzzleAnswers : MonoBehaviour
         Debug.Log(AnswerLevel4[X, Y]);
         if (AnswerLevel4[X, Y] == true)
         {
+            currency.SetActive(true);
+
             puzzlesScript.DeactivatePuzzles(X);
             Attempts = 3;
             Debug.Log(" If Statement works");
+
+            // Add 4 to the currency text value
+            int currentCurrency = int.Parse(currencyText.text);
+            currentCurrency += 4;
+            currencyText.text = currentCurrency.ToString();
+
+            Debug.Log("Currency increased by 4");
         }
         else
         {
-            //Remember to add text field for player comunication.
-            //Must display incorrect answer in text field.
+            incorrectText.SetActive(true);
+            StartCoroutine(DeactivateIncorrectText()); // Start the coroutine
 
             Attempts--;
             if (Attempts == 0)
@@ -345,5 +383,11 @@ public class PuzzleAnswers : MonoBehaviour
 
         }
 
+    }
+
+    private IEnumerator DeactivateIncorrectText()
+    {
+        yield return new WaitForSeconds(1f); // Wait for 1 second
+        incorrectText.SetActive(false); // Deactivate the incorrectText
     }
 }

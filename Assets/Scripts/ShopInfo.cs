@@ -6,7 +6,7 @@ using TMPro;
 
 public class ShopInfo : MonoBehaviour
 {
-    public Sprite Image;
+ /*   public Sprite Image;
     public TMP_Text GemTxt;
     public GameObject Shop;
 

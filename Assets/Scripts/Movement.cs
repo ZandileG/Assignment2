@@ -18,11 +18,14 @@ public class Movement : MonoBehaviour
     public GameObject Level4Screen;
     public GameObject WinScreen;
     public GameObject MazeGrid;
+    public PuzzleAnswers puzzleAnswers;
+    public GameObject AnswersScript;
 
     void Start()
     {
         playerBody = GetComponent<Rigidbody2D>();
         puzzlesScript = puzzle_script.GetComponent<Puzzles>();
+        puzzleAnswers = AnswersScript.GetComponent<PuzzleAnswers>();
 
         frontSprite.SetActive(true);
         rightSprite.SetActive(false);
@@ -90,16 +93,20 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.tag == "Chest1")
         {
             SceneManager.LoadScene("Level2");
+            puzzleAnswers.SecondLevel();
+            Debug.Log("It works");
         }
 
         if (collision.gameObject.tag == "Chest2")
         {
             SceneManager.LoadScene("Level3");
+            puzzleAnswers.ThirdLevel();
         }
 
         if (collision.gameObject.tag == "Chest3")
         {
             SceneManager.LoadScene("Level4");
+            puzzleAnswers.FourthLevel();
         }
 
 

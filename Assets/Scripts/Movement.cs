@@ -36,6 +36,11 @@ public class Movement : MonoBehaviour
         leftSprite.SetActive(false);
     }
 
+    private void ResetCurrency()
+    {
+        puzzleAnswers.UpdateCurrency(0); // Set currency to 0 using the UpdateCurrency method
+    }
+
     void Update()
     {
 
@@ -120,6 +125,8 @@ public class Movement : MonoBehaviour
             MazeGrid.SetActive(false);
             miniPuzzles.SetActive(false);
             currency.SetActive(false);
+
+            ResetCurrency(); // Reset the currency when the win screen is activated
         }
 
     }

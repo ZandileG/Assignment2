@@ -2142,11 +2142,11 @@ MonoBehaviour:
     mini puzzles and the shortest one has 3. You cannot continue walking without
     completing the puzzle. When you answer a mini puzzle, you earn some gems depending
     on how difficult it is, an easy puzzle gives you 1 gem and a difficult one earns
-    you 2 or 3 gems. The gems can be used to buy hints to help you with the more
-    difficult mini puzzles. You can shoose to answer all mini puzzles, just make
-    sure that you finish in time.\n\nControls\r\n1. Use the arrow keys to move left,
-    right, up, and down.\r\n2. Use the mouse to click on the correct answer when
-    completing the puzzles"
+    you 2 or 3 gems. The gems can be used to buy hints to give you answers for the
+    more difficult mini puzzles. You can choose to answer all mini puzzles, just
+    make sure that you finish in time.\n\nControls\r\n1. Use the arrow keys to move
+    left, right, up, and down.\r\n2. Use the mouse to click on the correct answer
+    when completing the puzzles"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class PuzzleAnswers : MonoBehaviour
@@ -35,6 +36,10 @@ public class PuzzleAnswers : MonoBehaviour
 
     void Start()
     {
+        // Load the currency value from PlayerPrefs or set a default value
+        int initialCurrency = PlayerPrefs.GetInt("Currency", 0);
+        currencyText.text = initialCurrency.ToString();
+
         puzzlesScript = puzzle_script.GetComponent<Puzzles>();
         FirstLevel();
         SecondLevel();
@@ -42,7 +47,13 @@ public class PuzzleAnswers : MonoBehaviour
         FourthLevel();
     }
 
-    
+    public void UpdateCurrency(int newCurrency)
+    {
+        PlayerPrefs.SetInt("Currency", newCurrency);
+        PlayerPrefs.Save(); // Save the PlayerPrefs data
+        currencyText.text = newCurrency.ToString();
+    }
+
     void Update()
     {
 
@@ -142,7 +153,7 @@ public class PuzzleAnswers : MonoBehaviour
             // Add 1 to the currency text value
             int currentCurrency = int.Parse(currencyText.text);
             currentCurrency++;
-            currencyText.text = currentCurrency.ToString();
+            UpdateCurrency(currentCurrency);
 
             Debug.Log("Currency increased by 1");
         }
@@ -204,12 +215,12 @@ public class PuzzleAnswers : MonoBehaviour
             Attempts = 3;
             Debug.Log(" If Statement works");
 
-            // Add 2 to the currency text value
+            // Add 1 to the currency text value
             int currentCurrency = int.Parse(currencyText.text);
-            currentCurrency += 2;
-            currencyText.text = currentCurrency.ToString();
+            currentCurrency ++;
+            UpdateCurrency(currentCurrency);
 
-            Debug.Log("Currency increased by 2");
+            Debug.Log("Currency increased by 1");
         }
         else
         {
@@ -269,12 +280,12 @@ public class PuzzleAnswers : MonoBehaviour
             Attempts = 3;
             Debug.Log(" If Statement works");
 
-            // Add 3 to the currency text value
+            // Add 2 to the currency text value
             int currentCurrency = int.Parse(currencyText.text);
-            currentCurrency += 3;
-            currencyText.text = currentCurrency.ToString();
+            currentCurrency += 2;
+            UpdateCurrency(currentCurrency);
 
-            Debug.Log("Currency increased by 3");
+            Debug.Log("Currency increased by 2");
         }
         else
         {
@@ -333,12 +344,12 @@ public class PuzzleAnswers : MonoBehaviour
             Attempts = 3;
             Debug.Log(" If Statement works");
 
-            // Add 4 to the currency text value
+            // Add 3 to the currency text value
             int currentCurrency = int.Parse(currencyText.text);
-            currentCurrency += 4;
-            currencyText.text = currentCurrency.ToString();
+            currentCurrency += 3;
+            UpdateCurrency(currentCurrency);
 
-            Debug.Log("Currency increased by 4");
+            Debug.Log("Currency increased by 3");
         }
         else
         {

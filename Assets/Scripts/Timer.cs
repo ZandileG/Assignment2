@@ -5,9 +5,9 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
-    public float startingTime = 60.0f; // Starting time in seconds
-    public TextMeshProUGUI timerText; // Reference to the timer text object
-    public GameObject loseScreen; // Reference to the "lose" screen GameObject
+    public float startingTime = 60.0f;
+    public TextMeshProUGUI timerText;
+    public GameObject loseScreen;
     public GameObject levelScreen;
     public GameObject miniPuzzles;
     public GameObject mazeGrid;
@@ -17,16 +17,21 @@ public class Timer : MonoBehaviour
     private float currentTime;
     private bool hasLost = false;
 
+    private PuzzleAnswers puzzleAnswers; // Reference to your PuzzleAnswers script
+
     private void Start()
     {
         currentTime = startingTime;
+
+        // Get a reference to the PuzzleAnswers script
+        puzzleAnswers = FindObjectOfType<PuzzleAnswers>();
     }
 
     private void Update()
     {
         if (!hasLost && currentTime > 0)
         {
-            currentTime -= Time.deltaTime; // Subtract time passed since last frame
+            currentTime -= Time.deltaTime;
             UpdateTimerDisplay();
         }
         else if (!hasLost && currentTime <= 0)
@@ -34,12 +39,13 @@ public class Timer : MonoBehaviour
             currentTime = 0;
             UpdateTimerDisplay();
             ActivateLoseScreen();
+            ResetCurrency(); // Reset the currency here
             levelScreen.SetActive(false);
             miniPuzzles.SetActive(false);
             mazeGrid.SetActive(false);
             timer.SetActive(false);
             currency.SetActive(false);
-}
+        }
     }
 
     private void UpdateTimerDisplay()
@@ -52,8 +58,12 @@ public class Timer : MonoBehaviour
 
     private void ActivateLoseScreen()
     {
-        // Activate the "lose" screen GameObject
         loseScreen.SetActive(true);
         hasLost = true;
+    }
+
+    private void ResetCurrency()
+    {
+        puzzleAnswers.UpdateCurrency(0); // Set currency to 0 using the UpdateCurrency method
     }
 }

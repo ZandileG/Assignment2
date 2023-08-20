@@ -15,6 +15,21 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level1");
     }
+
+    public void ReplayLevel2()
+    {
+        SceneManager.LoadScene("Level2");
+    }  
+    
+    public void ReplayLevel3()
+    {
+        SceneManager.LoadScene("Level3");
+    } 
+    
+    public void ReplayLevel4()
+    {
+        SceneManager.LoadScene("Level4");
+    }
     
   //The game will end when the "Quit" button is pressed
     public void Quit()

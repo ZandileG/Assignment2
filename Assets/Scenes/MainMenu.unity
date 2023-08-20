@@ -808,7 +808,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -460}
+  m_AnchoredPosition: {x: 3, y: -487}
   m_SizeDelta: {x: 172.07, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &796513235
@@ -1087,7 +1087,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26, y: 450}
+  m_AnchoredPosition: {x: -26, y: 472}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1059167921
@@ -2079,7 +2079,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: 1}
+  m_AnchoredPosition: {x: 20, y: 5}
   m_SizeDelta: {x: 1834.7, y: 813.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1297048047077558879
@@ -2131,20 +2131,22 @@ MonoBehaviour:
   m_text: "In this game, there are two main puzzles that you, as the player, must
     solve in order to complete the game. There is the main puzzle in each level which
     is, navigating your player character out of a maze and there are mini puzzles
-    that ask you to answer riddles, complete patterns, and find something odd out
-    of a collection of similar objects.\n\nGameplay\nThere are four levels and in
-    each one the you will get a different maze to move around in. Each maze has 
-    three entrances that lead to three pathways inside the maze. You can choose to
-    enter any one of them. The mini puzzles are found on the pathways symbolised
-    by signposts/mushrooms. When you bump into one, it will open up a puzzle that
-    you need to solve.\n\nWhen you walk on the longest path, you can only solve 1
-    mini puzzle, the medium path has 2 mini puzzles and the shortest one has 3. You
-    cannot continue walking without completing the puzzle. When you answer a mini
-    puzzle, you earn some gems depending on how difficult it is, an easy puzzle gives
-    you 1 gem and a difficult one earns you 3+ gems. The gems can be used to buy
-    hints to help you with the more difficult mini puzzles. \n\nControls\r\n1. Use
-    the arrow keys to move left, right, up, and down.\r\n2. Use the mouse to click
-    on the correct answer when completing the puzzles"
+    that ask you to answer riddles, complete patterns etc. The game is timed so you
+    must try to complete it within the alotted time because each level has different
+    countdowns. \n\nGameplay\nThere are four levels and in each one the you will
+    get a different maze to move around in. Each maze has  three entrances that lead
+    to three pathways inside the maze. You can choose to enter any one of them. The
+    mini puzzles are found on the pathways symbolised by mushrooms. When you bump
+    into one, it will open up a puzzle that you need to solve.\n\nWhen you walk on
+    the longest path, there is 1 mini puzzle on your path, the medium path has 2
+    mini puzzles and the shortest one has 3. You cannot continue walking without
+    completing the puzzle. When you answer a mini puzzle, you earn some gems depending
+    on how difficult it is, an easy puzzle gives you 1 gem and a difficult one earns
+    you 2 or 3 gems. The gems can be used to buy hints to help you with the more
+    difficult mini puzzles. You can shoose to answer all mini puzzles, just make
+    sure that you finish in time.\n\nControls\r\n1. Use the arrow keys to move left,
+    right, up, and down.\r\n2. Use the mouse to click on the correct answer when
+    completing the puzzles"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -2207,7 +2209,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -4.337158, y: -70.176704, z: 43.111145, w: -69.566315}
+  m_margin: {x: -4.337158, y: -70.176704, z: 21.122253, w: -69.566315}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

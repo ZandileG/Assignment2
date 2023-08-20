@@ -18,6 +18,9 @@ public class Movement : MonoBehaviour
     public GameObject Level4Screen;
     public GameObject WinScreen;
     public GameObject MazeGrid;
+    public GameObject miniPuzzles;
+    public GameObject currency;
+
     public PuzzleAnswers puzzleAnswers;
     public GameObject AnswersScript;
 
@@ -115,6 +118,8 @@ public class Movement : MonoBehaviour
             WinScreen.SetActive(true);
             Level4Screen.SetActive(false);
             MazeGrid.SetActive(false);
+            miniPuzzles.SetActive(false);
+            currency.SetActive(false);
         }
 
     }

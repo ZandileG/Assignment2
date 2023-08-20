@@ -2029,7 +2029,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3044,7 +3044,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3465,7 +3465,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4806,7 +4806,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5960,7 +5960,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6356,7 +6356,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6782,7 +6782,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8212,7 +8212,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8641,7 +8641,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9247,7 +9247,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11027,7 +11027,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11563,7 +11563,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11999,7 +11999,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14091,7 +14091,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14518,7 +14518,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14871,7 +14871,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15688,12 +15688,14 @@ MonoBehaviour:
   LevelOneY: 000000000000000000000000000000000000000000000000
   LevelTwoX: 000000000000000000000000000000000000000000000000
   LevelTwoY: 000000000000000000000000000000000000000000000000
-  LevelThreeX: 000000000000000000000000000000000000000000000000
-  LevelThreeY: 000000000000000000000000000000000000000000000000
+  LevelThreeX: 000000000100000002000000030000000400000005000000
+  LevelThreeY: 020000000100000004000000010000000200000004000000
   LevelFourX: 000000000000000000000000000000000000000000000000
   LevelFourY: 000000000000000000000000000000000000000000000000
   puzzlesScript: {fileID: 0}
   puzzle_script: {fileID: 451639296}
+  Delay: 0
+  DelaySecond: 0
   Attempts: 3
 --- !u!1 &1116503476
 GameObject:
@@ -15781,7 +15783,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15915,7 +15917,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16143,7 +16145,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16362,7 +16364,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17432,7 +17434,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18814,7 +18816,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19032,7 +19034,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20116,7 +20118,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20721,7 +20723,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21435,7 +21437,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -21663,7 +21665,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22463,7 +22465,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -23190,7 +23192,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -75001,7 +75003,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -75541,7 +75543,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -76770,7 +76772,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -76904,7 +76906,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77149,7 +77151,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77283,7 +77285,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77510,7 +77512,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1110982282}
         m_TargetAssemblyTypeName: PuzzleAnswers, Assembly-CSharp
-        m_MethodName: answer
+        m_MethodName: answer3
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -80346,6 +80348,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 32165148}
     m_Modifications:
+    - target: {fileID: 8199374421115145755, guid: 8b71f720f95b0fe4daab738fa85b526b, type: 3}
+      propertyPath: AnswersScript
+      value: 
+      objectReference: {fileID: 1110982280}
     - target: {fileID: 8199374421115145755, guid: 8b71f720f95b0fe4daab738fa85b526b, type: 3}
       propertyPath: puzzle_script
       value: 

@@ -5726,7 +5726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 1155882599}
   hintButton: {fileID: 872151204}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 1615893645}
 --- !u!1 &286978781
 GameObject:
   m_ObjectHideFlags: 0
@@ -9077,7 +9077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 261088903}
   hintButton: {fileID: 1606655085}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 541967397}
 --- !u!1 &488138834
 GameObject:
   m_ObjectHideFlags: 0
@@ -20376,7 +20376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 1299542536}
   hintButton: {fileID: 1871027161}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 1548368579}
 --- !u!1 &1187005802
 GameObject:
   m_ObjectHideFlags: 0
@@ -30727,7 +30727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 1860238031}
   hintButton: {fileID: 526771121}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 780582137}
 --- !u!1 &1355345230
 GameObject:
   m_ObjectHideFlags: 0
@@ -32602,7 +32602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 1703466958}
   hintButton: {fileID: 837843266}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 1642851816}
 --- !u!1 &1467990000
 GameObject:
   m_ObjectHideFlags: 0
@@ -35430,7 +35430,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 514560586}
   hintButton: {fileID: 1112765064}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 563138501}
 --- !u!1 &1641033774
 GameObject:
   m_ObjectHideFlags: 0

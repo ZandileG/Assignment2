@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class HintButton : MonoBehaviour
 {
     public GameObject answerText; // Reference to the answer text
     public GameObject hintButton; // Reference to the hint button
-    public Shop shopScript; // Reference to the Shop script
+    public GameObject shopButton; // Reference to the shop button
 
+    private bool shopButtonClicked = false;
 
     private void Start()
     {
@@ -15,14 +15,18 @@ public class HintButton : MonoBehaviour
         Button button = hintButton.GetComponent<Button>();
         button.onClick.AddListener(ActivateAnswerText);
 
-        // Get the Shop script component
-        shopScript = FindObjectOfType<Shop>();
+        Button shopBtn = shopButton.GetComponent<Button>();
+        shopBtn.onClick.AddListener(OnShopButtonClicked);
+    }
+
+    public void OnShopButtonClicked()
+    {
+        shopButtonClicked = true;
     }
 
     public void ActivateAnswerText()
     {
-        // Check if the player purchased an item before activating the answer text
-        if (shopScript.HasPurchasedItem())
+        if (shopButtonClicked)
         {
             answerText.SetActive(true);
         }

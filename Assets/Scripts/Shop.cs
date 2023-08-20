@@ -11,7 +11,7 @@ public class Shop : MonoBehaviour
 
     public GameObject insufficientFunds;
     private bool hasPurchasedItem = false;
-
+    private int hintsPurchased = 0; // Number of hints purchased
 
     private void Start()
     {
@@ -33,7 +33,7 @@ public class Shop : MonoBehaviour
         {
             currentCurrency -= itemPrice;
             UpdateCurrency(currentCurrency);
-            hasPurchasedItem = true; // Update the flag
+            hintsPurchased++; // Increase hintsPurchased
             Debug.Log("Item purchased!");
         }
         else
@@ -41,6 +41,11 @@ public class Shop : MonoBehaviour
             insufficientFunds.SetActive(true);
             StartCoroutine(DeactivateInsufficientFunds()); // Start the coroutine
         }
+    }
+
+    public int GetHintsPurchased()
+    {
+        return hintsPurchased;
     }
 
     public void UpdateCurrency(int newCurrency)

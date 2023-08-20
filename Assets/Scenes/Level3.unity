@@ -511,13 +511,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2028234279}
+        m_TargetAssemblyTypeName: HintButton, Assembly-CSharp
+        m_MethodName: ActivateAnswerText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2577,7 +2577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 1512190957}
   hintButton: {fileID: 162620086}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 291609943}
 --- !u!1 &139263919
 GameObject:
   m_ObjectHideFlags: 0
@@ -3290,13 +3290,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 136901940}
+        m_TargetAssemblyTypeName: HintButton, Assembly-CSharp
+        m_MethodName: ActivateAnswerText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10342,13 +10342,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 748861395}
+        m_TargetAssemblyTypeName: HintButton, Assembly-CSharp
+        m_MethodName: ActivateAnswerText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -11077,7 +11077,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 1274335705}
   hintButton: {fileID: 1701506433}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 1103925418}
 --- !u!1 &683810909
 GameObject:
   m_ObjectHideFlags: 0
@@ -12090,7 +12090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 1326882456}
   hintButton: {fileID: 636901545}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 110772597}
 --- !u!1 &755983892
 GameObject:
   m_ObjectHideFlags: 0
@@ -13197,13 +13197,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1401915593}
+        m_TargetAssemblyTypeName: HintButton, Assembly-CSharp
+        m_MethodName: ActivateAnswerText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -14150,13 +14150,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1060786696}
+        m_TargetAssemblyTypeName: HintButton, Assembly-CSharp
+        m_MethodName: ActivateAnswerText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -16181,7 +16181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 111809742}
   hintButton: {fileID: 905971260}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 12088429}
 --- !u!1 &1062004104
 GameObject:
   m_ObjectHideFlags: 0
@@ -20212,7 +20212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 570553530}
   hintButton: {fileID: 810063055}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 139263919}
 --- !u!1 &1418192641
 GameObject:
   m_ObjectHideFlags: 0
@@ -24568,13 +24568,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 681434735}
+        m_TargetAssemblyTypeName: HintButton, Assembly-CSharp
+        m_MethodName: ActivateAnswerText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -80317,7 +80317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerText: {fileID: 1769412172}
   hintButton: {fileID: 30093319}
-  shopScript: {fileID: 0}
+  shopButton: {fileID: 632623276}
 --- !u!1 &2031875463
 GameObject:
   m_ObjectHideFlags: 0

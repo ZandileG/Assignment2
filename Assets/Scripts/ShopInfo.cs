@@ -13,7 +13,7 @@ public class ShopInfo : MonoBehaviour
     void Update ()
     {
         GemTxt.text = "0" + Shop.GetComponent<Shop>().shopItems[2,Image].ToString();
-    }
+    } 
 }
 
 //Please change gem text into gem icon

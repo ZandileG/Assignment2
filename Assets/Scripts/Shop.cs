@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 
 public class Shop : MonoBehaviour
 {
-    public int[,] shopItems = new int[6, 6];
+   /* public int[,] shopItems = new int[6, 6];
     public float gems;
     public TMP_Text gemTxt;
 
@@ -47,5 +47,5 @@ public class Shop : MonoBehaviour
 
     //When the player wins a puzzle, they must gain gems maybe 1-5 depending on the level of difficulty
     //The player can use those gems to buy hints
-    //The number of gems earned must decrease when the play presses the buy button
-}
+    //The number of gems earned must decrease when the play presses the buy button */
+} 
